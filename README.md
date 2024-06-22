@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+Lending Club Case Study
 
 
 ## Table of Contents
@@ -8,45 +8,38 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The project is a data science project that uses the lending club data set to predict whether a loan will be defaulted or not.
+- We want to reduce the Customers which fall into Category: “Loan not paid”
+- The dataset of previous loans, which includes whether the customer has "Fully Paid" the loan amount or a defaulter ("Charged Off").
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+pandas
+matplotlib
+seaborn
+jupyter
+re
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
+## Conclusions
+- Home Ownership is one of the major thing to look out when giving out the loans. The persons who don’t own their own house are the most defaulters.
+- Customers having Grade E  should be avoided giving loans, as there are almost 100% chance that the loan will be defaulted.
+- The verifier should be cautious for people who have Grade D
+- A person is most likely to be a defaulter when, the Loan Amount is ranging from: 5K to 14K and the Interest Rate is in the range of 10 to 16.
+- The likelihood of a person to be a defaulter increases when the DTI Ratio starts from 10 and decreases when the DTI Ratio ends at 25.
+- The persons who have the following purposes to get the loan are likely to return the loan amount:
+- - Car
+- - Wedding
+- - Medical
+- - House
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by UpGrad IITB Programme as a case study for the Machine Learning and Artificial Intelligence course.
+- References: https://www.infodiagram.com/slides/6-step-data-science-process-example-define-problem-collect-process-data-explore-analyze-interpret-results/
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@josephsachdeva] - feel free to contact me!
